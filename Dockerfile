@@ -1,5 +1,5 @@
 # 도커파일
-FROM amazoncorrectto:11-alpine-jdk
+FROM amazoncorretto:17-alpine-jdk
 ARG JAR_FILE=build/libs/*.jar
 ARG PROFILES
 ARG ENV
