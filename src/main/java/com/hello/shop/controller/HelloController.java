@@ -32,6 +32,7 @@ public class HelloController {
         responseData.put("port", port);
         responseData.put("serverAddress", serverAddress);
         responseData.put("serverName", serverName);
+        responseData.put("name", "도원진");
 
         return ResponseEntity.ok(responseData);
     }
